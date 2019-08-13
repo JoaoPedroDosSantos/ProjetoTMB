@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
   <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
   <script src="components/loader.js"></script>
+  <script src="components/acao.js"></script>
 
   <link rel="stylesheet" href="components/loader.css">
   <link rel="stylesheet" href=" css/bootstrap.min.css">
@@ -21,7 +22,7 @@
      <div class="col-xs-12">
        <div class="form-group">
          <label for="peso">Peso:</label>
-         <input type="number" id="peso" class="for-control">
+         <input type="number" id="peso" class="form-control">
        </div>
      </div>
    </div>
@@ -30,7 +31,7 @@
      <div class="col-xs-12">
        <div class="form-group">
          <label for="altura">Altura:</label>
-         <input type="number" id="altura" class="for-control">
+         <input type="number" id="altura" class="form-control">
        </div>
      </div>
    </div>
@@ -40,7 +41,7 @@
      <div class="col-xs-12">
        <div class="form-group">
          <label for="idade">Idade:</label>
-         <input type="number" id="idade" class="for-control">
+         <input type="number" id="idade" class="form-control">
        </div>
      </div>
    </div>
@@ -68,40 +69,23 @@
      <div class="col-xs-12">
        <label>Taxa de Atividade</label>
      </div>
-    <div class="col-xs-12">
-     <div class="radio">
-       <label>
-         <input type="radio" id="sedentario" value="sedentario">Sedentário (pouco ou nenhum exercicio)
-       </label>
-      </div> 
-    </div>   
-    <div class="col-xs-12">
-      <div class="radio">
-        <label>
-          <input type="radio" id="levemente"  value="levemente">Levemente ativo (1-3 dias/semana)
-        </label>
-      </div>
-    </div>
-    <div class="col-xs-12">
-      <div class="radio">
-         <label>
-           <input type="radio" id="moderadamente" value="moderadamente">Moderadamente ativo (3-5 dias/semana)
-        </label>
-      </div>
-    </div>  
-    <div class="col-xs-12">
-    <div class="radio">
-       <label>
-        <input type="radio" id="altamente"  value="altamente">Altamente ativo ( 5-6 dias/semana)
-       </label>
-    </div>
+     <div class="col-xs-12">
+      <div class="taxa">
+       <select class="form-group">
+        <option>Selecione uma Taxa de atividade</option>
+        <option>Sedentário (pouco ou nenhum exercicio)</option>
+        <option>Levemente ativo (1-3 dias/semana)</option>
+        <option>Moderadamente atvio (3-5 dias/semana)</option>
+        <option>Altamente ativo (5-6 dias/semana)</option>
+        <option>Extremamente ativo (2 vezes por dia)</option> 
+       </select>
+      </div>  
+    </div> 
+  <div class="col-xs-12">
+    <button class="botao btn-block btn-success">Calcular</button> 
   </div> 
   <div class="col-xs-12">
-    <div class="radio">
-      <label>
-          <input type="radio" id="extremamente"  value="extremamente">Extremamente ativo (2 vezes por dia)
-      </label>
-    </div>
+    <button class="botao btn-block btn-danger">Limpar</button> 
   </div>          
                                      
 </div>

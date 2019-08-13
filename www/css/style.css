@@ -13,10 +13,36 @@
   border: 0;
   border: 0.5px solid black;
   margin-top: 20px;
+  margin-left: 30px;
+  height: 30px;
+  width: 250px;
+
+}
+#radio{
+  height: 30px;
+  font-size: 30px;'!|'
 }
 
 .form-group label{
   margin-left: 60px;
+  height: 30px;
+  width: 30px;
+
+}
+.taxa{
+    border-radius: 10px;
+  border: 0;
+  border: 0.5px solid black;
+  margin-top: 20px;
+  margin-left: 30px;
+  height: 30px;
+  width: 250px;
+
+}
+.botao{
+  border: 0;
+  margin-top: 5%;
+  margin-left: 1%;
 }
 
 
