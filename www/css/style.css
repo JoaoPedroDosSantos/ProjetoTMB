@@ -1,8 +1,23 @@
-/**/
-.topo{
+.Topo h1{
   text-align: center;
+  margin-top: 50px;
 }
 .container{
-  background-color:  white; 
+  background-color: #E8B095;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.form-group input[type="number"]{
+  border-radius: 10px;
+  border: 0;
+  border: 0.5px solid black;
+  margin-top: 20px;
+}
+
+.form-group label{
+  margin-left: 60px;
+}
+
+
 
