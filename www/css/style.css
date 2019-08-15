@@ -1,48 +1,76 @@
 .Topo h1{
   text-align: center;
-  margin-top: 50px;
+  margin-top: 10%;
 }
 .container{
   background-color: #E8B095;
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
 }
-
 .form-group input[type="number"]{
   border-radius: 10px;
   border: 0;
   border: 0.5px solid black;
-  margin-top: 20px;
-  margin-left: 30px;
-  height: 30px;
-  width: 250px;
+  margin-top: 5px;
+  margin-left: 25%;
+  height: 4vh;
+  width: 50vw;
 
 }
 #radio{
   height: 30px;
-  font-size: 30px;'!|'
+  font-size: 30px;
 }
 
 .form-group label{
-  margin-left: 60px;
-  height: 30px;
+  margin-left: 3%;
+  height: 5vh;
   width: 30px;
 
 }
+.sexo{
+   border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 11vh;
+  height: 5vh;
+  width: 60%;
+}
+.taxad{
+  margin-top: 10%;
+}
+.col-xs-12 label{
+  margin-left: 4%;
+}
 .taxa{
     border-radius: 10px;
-  border: 0;
-  border: 0.5px solid black;
   margin-top: 20px;
-  margin-left: 30px;
-  height: 30px;
-  width: 250px;
+  margin-left: 8vw;
+  height: 5vh;
+  width: 70vw;
 
 }
 .botao{
   border: 0;
   margin-top: 5%;
   margin-left: 1%;
+}
+.result{
+  margin-left: 1vw;
+}
+.visor{
+   border-radius: 10px;
+  border: 0;
+  border: 0.5px solid black;
+  margin-top: 5px;
+  margin-left: 25%;
+  height: 4vh;
+  width: 50vw;
+}
+.col-xs-12 button{
+  margin-top: 2vh;
 }
 
 
